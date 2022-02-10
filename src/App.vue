@@ -1,32 +1,50 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <headere></headere>
+    <router-link to="/home"></router-link>
+    <router-link to="/faq"></router-link>
+    <router-view></router-view>
+    <footere></footere>
   </div>
 </template>
 
+<script>
+import headere from './components/header.vue'
+import footere from './components/footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    headere,
+    footere
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*, body {
+    -webkit-tap-highlight-color: transparent;
 }
 
-#nav {
-  padding: 30px;
+body {
+    font-size: .83333vw;
+    font-family: PingFang SC,Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    color: #2c3e50;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-feature-settings: none;
+    font-feature-settings: none;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+::-webkit-scrollbar {
+    display: none;
 }
 </style>
