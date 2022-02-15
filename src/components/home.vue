@@ -1,9 +1,9 @@
 <template>
     <div>
         <div data-v-4d861efe class="banner">
-            <img data-v-4d861efe src="../assets/zebra-16405774952215305.png" alt="The creta class is the math class for kids 3-8. The 5 levels matching for different age groups with the abundant learning resourc, including 500+ knowledge points, 2300+ exercises, 1200+ animates video. The creta class is the highlight with systemic curriculum, top-notch teaching research team, 1-on-1 tutoring. " class="banner-img">
+            <img data-v-4d861efe v-lazy:[img1] alt="The creta class is the math class for kids 3-8. The 5 levels matching for different age groups with the abundant learning resourc, including 500+ knowledge points, 2300+ exercises, 1200+ animates video. The creta class is the highlight with systemic curriculum, top-notch teaching research team, 1-on-1 tutoring. " class="banner-img">
             <div data-v-4d861efe class="flex">
-                <img data-v-4d861efe="" src="../assets/zebra-16399919790761060.png" alt="shading" class="shading">
+                <img data-v-4d861efe="" v-lazy:[img2] alt="shading" class="shading">
                 <div data-v-4d861efe class="purcahse">
                     <div data-v-4d861efe>
                         <div data-v-4d861efe class="time">2 Weeks</div>
@@ -11,13 +11,13 @@
                     </div>
                     <div data-v-4d861efe class="btn">
                         <span data-v-4d861efe>Try it now</span>
-                        <img data-v-4d861efe src="../assets/zebra-16399901081837876.png" class="arrow">
+                        <img data-v-4d861efe v-lazy:[img3] class="arrow">
                     </div>
                 </div>
                 <div data-v-4d861efe class="download">
                     <div data-v-4d861efe class="text">Download the app</div>
-                    <img data-v-4d861efe src="../assets/zebra-16406756544011741.png" class="app-store">
-                    <img data-v-4d861efe src="../assets/zebra-16406756814996865.png" class="google-play">
+                    <img data-v-4d861efe v-lazy:[img4] class="app-store">
+                    <img data-v-4d861efe v-lazy:[img5] class="google-play">
                 </div>
             </div>
         </div>
@@ -30,34 +30,34 @@
                         <div data-v-0574ec76 class="desc">Attractive AI content stimulates interest in learning</div>
                         <div data-v-0574ec76 class="desc">Immersive class with interactive experience</div>
                     </div>
-                    <img data-v-0574ec76 src="../assets/zebra-16405737365583148.png" class="image">
+                    <img data-v-0574ec76 v-lazy:[img6] class="image">
                 </div>
                 <div data-v-0574ec76 class="flex">
-                    <img data-v-0574ec76 src="../assets/zebra-16405738669897070.png" class="image">
+                    <img data-v-0574ec76 v-lazy:[img7] class="image">
                     <div data-v-0574ec76 class="text"></div>
                 </div>
                 <div data-v-0574ec76 class="flex">
                     <div data-v-0574ec76 class="text"></div>
-                    <img data-v-0574ec76 src="../assets/zebra-16405741584975373.png" class="image">
+                    <img data-v-0574ec76 v-lazy:[img8] class="image">
                 </div>
             </div>
             <div data-v-69ff67a0 class="section2">
                 <div data-v-69ff67a0 class="main-content">
                     <div data-v-69ff67a0 class="title">Cultivate thinking skills from all aspects</div>
                     <div data-v-69ff67a0 class="sub-title">Covering cognitive, behavior and society respectively</div>
-                    <img data-v-69ff67a0 src="../assets/zebra-1639987141953422.png" alt="Creta Class cultivates thinking skills from all aspects, consisting of three levels: cognition, action, and sociality. The skills includes logical reasoning, problem solving, confidence, critical thinking, arithmetic, spatial awareness and data analysis." class="main-img">
+                    <img data-v-69ff67a0 v-lazy:[img9] alt="Creta Class cultivates thinking skills from all aspects, consisting of three levels: cognition, action, and sociality. The skills includes logical reasoning, problem solving, confidence, critical thinking, arithmetic, spatial awareness and data analysis." class="main-img">
                     <div data-v-69ff67a0 class="btn">
                         <div data-v-69ff67a0>Try it now</div>
-                        <img data-v-69ff67a0 src="../assets/zebra-16401415675038986.png" class="arrow">
+                        <img data-v-69ff67a0 v-lazy:[img10] class="arrow">
                     </div>
                 </div>
-                <img data-v-69ff67a0 src="../assets/zebra-16399839083342613.png" class="top">
-                <img data-v-69ff67a0 src="../assets/zebra-16399839211629248.png" class="left">
-                <img data-v-69ff67a0 src="../assets/zebra-16399839355223290.png" class="right">
+                <img data-v-69ff67a0 v-lazy:[img11] class="top">
+                <img data-v-69ff67a0 v-lazy:[img12] class="left">
+                <img data-v-69ff67a0 v-lazy:[img13] class="right">
             </div>
             <div data-v-b51e692a class="section3">
                 <div data-v-b51e692a class="title">Learn with Ease Anytime, Anywhere</div>
-                <img data-v-b51e692a src="../assets/zebra-16406759845901789.png">
+                <img data-v-b51e692a v-lazy:[img14]>
             </div>
             <div data-v-70d3f1f9 class="section4">
                 <div data-v-70d3f1f9 class="title">Hear what our learners say</div>
@@ -78,10 +78,10 @@
             </div>
             <div data-v-580d7d8a class="section5">
                 <div data-v-580d7d8a class="title">How to start your child’s first lesson</div>
-                <img data-v-580d7d8a src="../assets/a8x8spp7y.png" class="main-img">
+                <img data-v-580d7d8a v-lazy:[img15] class="main-img">
                 <div data-v-580d7d8a class="btn">
                     <div data-v-580d7d8a>Try it now</div>
-                    <img data-v-580d7d8a src="../assets/zebra-16401416568915634.png" class="arrow">
+                    <img data-v-580d7d8a v-lazy:[img16] class="arrow">
                 </div>
             </div>
             
@@ -92,16 +92,47 @@
 
 <script>
 import faq from './faq.vue'
+import img1 from '../assets/zebra-16405774952215305.png'
+import img2 from '../assets/zebra-16399919790761060.png'
+import img3 from '../assets/zebra-16399901081837876.png'
+import img4 from '../assets/zebra-16406756544011741.png'
+import img5 from '../assets/zebra-16406756814996865.png'
+import img6 from '../assets/zebra-16405737365583148.png'
+import img7 from '../assets/zebra-16405738669897070.png'
+import img8 from '../assets/zebra-16405741584975373.png'
+import img9 from '../assets/zebra-1639987141953422.png'
+import img10 from '../assets/zebra-16401415675038986.png'
+import img11 from '../assets/zebra-16399839083342613.png'
+import img12 from '../assets/zebra-16399839211629248.png'
+import img13 from '../assets/zebra-16399839355223290.png'
+import img14 from '../assets/zebra-16406759845901789.png'
+import img15 from '../assets/a8x8spp7y.png'
+import img16 from '../assets/zebra-16401416568915634.png'
+
 export default {
     name: 'home',
-
+    data: function() {
+        return {
+            img1,
+            img2,
+            img3,
+            img4,
+            img5,
+            img6,
+            img7,
+            img8,
+            img9,
+            img10,
+            img11,
+            img12,
+            img13,
+            img14,
+            img15,
+            img16
+        }
+    },
     props: {
 
-    },
-    data: function(){
-        return {
-           
-        }
     },
     components: {faq}
 }
