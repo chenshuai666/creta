@@ -9,7 +9,7 @@
             <div class="question-item" v-for="(con, index) in content[num-1].faq" :key="index">
                 <div class="question-title" @click="toggle(con)">
                     {{con.question}}
-                    <img src="../assets/zebra-16397135754732960.png" class="arrow" :class="{clockwise: con.display}">
+                    <img v-lazy:[arrowimg] class="arrow" :class="{clockwise: con.display}">
                 </div>
                 <div class="answer" v-show="con.display">
                     <p v-for="(ans, q) in con.answer" :key="q">{{ans}}</p>
@@ -21,10 +21,13 @@
 </template>
 
 <script>
+import arrowimg from '../assets/zebra-16397135754732960.png'
+
 export default {
     name: 'other',
     data: function() {
         return {
+            arrowimg,
             num: 1,
             content: [
                 {

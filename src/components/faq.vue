@@ -5,7 +5,7 @@
             <div data-v-4a430a5b v-for="item in dataItems" :key="item.id" class="question-item">
                 <div data-v-4a430a5b class="question-title" @click="toggle(item)">
                     {{item.title}}
-                    <img data-v-4a430a5b src="../assets/zebra-16397135754732960.png" class="arrow" :class="{clockwise:item.display}">
+                    <img data-v-4a430a5b v-lazy:[arrowimg] class="arrow" :class="{clockwise:item.display}">
                 </div>
                 <div data-v-4a430a5b class="answer" v-show="item.display">
                     <p data-v-4a430a5b v-for="(ans, index) in item.answer" :key="index">{{ans}}</p>
@@ -22,10 +22,13 @@
 </template>
 
 <script>
+import arrowimg from '../assets/zebra-16397135754732960.png'
+
 export default {
     name: 'faq',
     data: function(){
         return {
+            arrowimg,
             dataItems: [
                 {
                     id: 1,
